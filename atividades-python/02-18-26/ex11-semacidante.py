@@ -15,3 +15,8 @@ while tempo > 0:
         tempo = tempo-1
 
 print(ano," anos, ",mes," meses e ",dia," dias sem acidentes")
+
+
+#anos = diastrabaio // 365
+#meses = (diastrabaio % 365) // 30
+#dias = (diastrabaio %365) % 30
