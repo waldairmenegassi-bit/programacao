@@ -13,5 +13,5 @@ ingrediente = {
 def pedido():
     for chave in ingrediente:
         ingrediente[chave] = random.choice([True, False]) 
-
+        
 
