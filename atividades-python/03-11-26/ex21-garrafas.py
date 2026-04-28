@@ -1,0 +1,5 @@
+g1 = float(input("Digite quantas garrafas de 350ml você vai querer: "))
+g2 = float(input("Digite quantas garrafas de 600ml você vai querer: "))
+g3 = float(input("Digite quantas garrafas de 2L você vai querer: "))
+total = (g1 * 350) + (g2 * 600) + (g1 * 2000)
+print("A quantidade total em ML é: ",total)

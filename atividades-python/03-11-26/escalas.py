@@ -15,8 +15,6 @@ depois_doisponto = False
 with open(arquivo, "r", encoding="utf-8") as texto: # Le o arquivo 
     retorno = texto.readlines() # Salva em retorno cada linha com seu texto
     for char in retorno[0]: # Aramazena a escala
-        if "\n" in retorno[0]:
-            retorno[0] = retorno[0] - "\n"
         if char.isnumeric():
             str(char)
             if depois_doisponto:
